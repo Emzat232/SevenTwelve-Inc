@@ -1,0 +1,26 @@
+html {background: url('https://i.pinimg.com/736x/41/b8/19/41b81935b7a787da99c2fdbae105e183.jpg');
+}
+
+h1 {margin: 50px;
+font-family: "BAuhaus 93"
+}
+
+fieldset {margin: 15px;
+  border-color: transparent;}
+
+legend {font-family: "Colonna MT";
+font-size: 20px;
+font-weight: bold;
+}
+
+input {font-family: "Colonna MT";
+font-weight: bold;
+border-color: black;
+background: transparent;
+background: rgba(255, 255, 255, 0.5);
+border-radius: 10px;
+width: 80%}
+
+#Submit {width:30%;
+text-align: middle;
+margin: auto;}

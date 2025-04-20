@@ -1,0 +1,30 @@
+#Forgot {font-weight: Bold;
+background-color: transparent;
+border-color: transparent;
+width:auto;
+}
+
+input {border-radius: 15px;
+width:100%;
+font-family: "Colonna MT";
+background: transparent;
+  background: rgba(255, 255, 255, 0.5);
+  border-color: black;
+}
+
+#Login {width: 20%;
+height:auto;
+font-size: 15px}
+
+fieldset {border-color:transparent}
+
+legend {font-family: "Colonna MT";
+  font-size: 20px;
+}
+
+html {background: url('https://i.pinimg.com/736x/90/a9/be/90a9be0bc5cf80c33ab5c5053e8e700f.jpg')}
+
+p1 {font-family: "Colonna MT";
+font-size: 15px}
+
+h1 {font-family: "Bauhaus 93"}
