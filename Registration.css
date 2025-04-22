@@ -6,7 +6,8 @@ font-family: "BAuhaus 93";
 }
 
 fieldset {margin: 15%;
-  border-color: transparent;}
+  border-color: transparent;
+    spacing: 10px;}
 
 legend {font-family: "Colonna MT";
 font-size: 20px;
