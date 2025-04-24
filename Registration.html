@@ -14,48 +14,48 @@ Online HTML, CSS and JavaScript editor to run code online.
   
 <!-- >Name, Surname, Student No, Contact, Module Code, Email, Password, Confirm Password.<-->
 <h1>REGISTRATION</h1>
-<form>
+<form method="post" action="connect.php">
 <fieldset>
   <legend>Full Name(s)</legend>
-  <input type="text" id="Names">
+  <input type="text" id="Names" name="Names">
   </fieldset>
   
   <fieldset>
   <legend>Surname</legend>
-    <input type="text" id="Surname">
+    <input type="text" id="Surname" name="Surname">
   </fieldset>
   
   <fieldset>
   <legend>ID/Passport No.</legend>
-    <input type="text" id="Identity">
+    <input type="text" id="Identity" name="Identity">
   </fieldset>
   
   <fieldset>
   <legend>Contact No.</legend>
 
-    <input type="tel" id="Contact"
+    <input type="tel" id="Contact" name="Contact"
      pattern="[0]{1}[6-8]{1}[0-9]{8}"> 
   </fieldset>
   
   <fieldset>
   <legend>Username</legend>
-    <input type="text" id="Username">
+    <input type="text" id="Username" name="Username">
   </fieldset>
   
   <fieldset>
   <legend>Email</legend>
-    <input type="email" id="Email">
+    <input type="email" id="Email" name="Email">
   </fieldset>
   
   <fieldset>
   <legend>Password</legend>
-    <input type="Password" id="Password" 
+    <input type="Password" id="Password" name="Passsword"
            minlength="8" maxlength="12"> 
   </fieldset> 
   
   <fieldset>
   <legend>Confirm Password</legend>
-    <input type="password" id="Password"
+    <input type="password" id="Password" name="Password"
       minlength="8" maxlength="12">
   </fieldset>
       <br>
